@@ -1,4 +1,3 @@
-
 FROM openjdk:8-jre
 ADD target/productcatalogue-0.0.1-SNAPSHOT.jar app.jar
 ADD product-catalogue.yml app-config.yml
